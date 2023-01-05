@@ -6,9 +6,14 @@ body{
     background-size: 100%;
     background-attachment: fixed;
     background-position: center center;
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+
 }
 header{
-    background-color: transparent;            
+    background-color: transparent;
+    padding: 15px 15px 15px 15px;
+    margin: 15px 15px 15px 15px            
 }
 nav{
     text-align: center;
@@ -17,7 +22,7 @@ nav{
     margin: 300;            
 }
 ul{
-word-spacing: 50px;
+    word-spacing: 50px;
 
 }
 li{
@@ -41,7 +46,15 @@ div{
 }
 
 div.inicio img{
-  background-position: center center;
+    border: 0.5px solid aquamarine;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(12, 144, 171);
+    -webkit-box-shadow: 5px 5px 5px rgb(12, 144, 171);
+    -moz-box-shadow: 5px 5px 5px rgb(12, 144, 171);
+    display: block;
+    background-position: center center;
+    margin-left: auto;
+    margin-right: auto;
     width: 800px;
     height: 500px;
     
@@ -51,16 +64,79 @@ div.inicio img{
 
 #tp{
     /*gradiente*/
-    color: black;
+    color: red;
     font-size: xx-large;
 
 
     /*posição*/
     text-align: center;
+    font-size: 70px;
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
-    margin-right: -50%;
     transform: translate(-50%, -50%);    
+}
+
+#ts{
+    color: red;
+    font-size: xx-large;
+
+
+    /*posição*/
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+
+}
+
+.h3video{
+    color: red;
+    padding: 10px 10px 0px 10px;
+    margin: 10px 10px 0px 10px;
+
+}
+div.videoap iframe{
+    
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0px 10px 10px 10px;
+    margin: 2mm auto;
+    left: 25%;
+}
+
+
+div.sobre {
+        background-color: transparente;
+        max-width: 780px;
+        padding: 10px;
+        margin: auto;
+        border: 1px solid darkcyan;
+        border-radius: 15px;
+
+}
+
+h3{
+    color: white;
+    text-align: center;
+}
+
+h4{
+    color: white;
+    text-align: center;
+
+}
+
+p{
+    color: white;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    word-spacing: 10px;
 }
