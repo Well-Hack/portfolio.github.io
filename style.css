@@ -1,0 +1,66 @@
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url("Imagens/Backgroundenigmasclub.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+}
+header{
+    background-color: transparent;            
+}
+nav{
+    text-align: center;
+    color: white;
+    padding: 300;
+    margin: 300;            
+}
+ul{
+word-spacing: 50px;
+
+}
+li{
+    list-style: none;
+    display: inline-block;
+    transition: all 0.5s;
+    padding: 200;
+    margin: 200;
+}
+li:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    color: aqua;
+}
+
+div{
+
+    background-position: center center;
+
+
+}
+
+div.inicio img{
+  background-position: center center;
+    width: 800px;
+    height: 500px;
+    
+    
+}
+
+
+#tp{
+    /*gradiente*/
+    color: black;
+    font-size: xx-large;
+
+
+    /*posição*/
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);    
+}
