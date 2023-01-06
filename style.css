@@ -1,5 +1,6 @@
 body{
     height: 100vh;
+    max-width: 5000px;
     background-color: black;
     background-image: url("Imagens/Backgroundenigmasclub.jpg");
     background-repeat: no-repeat;
@@ -8,6 +9,12 @@ body{
     background-position: center center;
     margin: 15px 15px 15px 15px;
     padding: 15px 15px 15px 15px;
+
+}
+
+img{
+    max-width: 100%;
+    display:block;
 
 }
 header{
@@ -36,6 +43,13 @@ li:hover{
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
     color: aqua;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding: 15px 15px 5px 15px;
+
 }
 
 div{
@@ -95,7 +109,7 @@ div.inicio img{
 }
 
 .h3video{
-    color: red;
+    color: white;
     padding: 10px 10px 0px 10px;
     margin: 10px 10px 0px 10px;
 
@@ -104,11 +118,11 @@ div.videoap iframe{
     
     display: inline-block;
     position: relative;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 120%;
+    max-height: 120%;
     padding: 0px 10px 10px 10px;
     margin: 2mm auto;
-    left: 25%;
+    left: 30%;
 }
 
 
@@ -139,4 +153,55 @@ p{
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
     word-spacing: 10px;
+}
+
+div.galeria{
+    display: flex;
+    align-items: center;
+    max-width: 2080px;
+    max-height:600px;
+    margin: 10px 25px 10px 25px;
+    padding: 5px 5px 5px 5px;
+}
+
+div.galeria img{
+    border: 1px solid aqua;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgb(12, 144, 171);
+    margin: 10px;
+    max-width: 350px;
+    max-height: 600px;
+    transition: all 0.5s;
+}
+
+
+div.galeria img:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div{
+    position: relative;
+}
+
+div.esconda > p{
+    display: inline-block;
+    text-align: left;
+    
+    /*visibility: hidden;*/
 }
