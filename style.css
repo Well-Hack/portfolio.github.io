@@ -177,7 +177,7 @@ div.galeria img {
 
 div.galeria p{
     font-size: large;
-    
+
 }
 
 div.galeria img:hover{
@@ -196,4 +196,16 @@ div.esconda > p{
     text-align: left;
     
     /*visibility: hidden;*/
+}
+
+div.drinks{
+    background-color: black;
+    background-size: cover;
+    background-image: url(Imagens/drinks-wallpaper.jpg);
+    background-repeat: no-repeat;
+    margin-right: -100px;
+    margin-left: -100px;
+    width: auto;
+    height: 100%;
+
 }
