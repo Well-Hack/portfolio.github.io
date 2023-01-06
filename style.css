@@ -201,13 +201,13 @@ div.esconda > p{
 div.drinks{
     background-color: black;
     background-size: cover;
-    box-shadow: inset;
-    box-shadow: 5px 5px 5px rgb(12, 144, 171);
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px aqua;
     background-image: url(Imagens/drinks-wallpaper.jpg);
     background-repeat: no-repeat;
     margin-right: -100px;
     margin-left: -100px;
-    width: auto;
-    height: 100%;
+    
+   
 
 }
