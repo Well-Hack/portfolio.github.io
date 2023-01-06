@@ -164,7 +164,7 @@ div.galeria{
     padding: 5px 5px 5px 5px;
 }
 
-div.galeria img{
+div.galeria img {
     border: 1px solid aqua;
     display: flex;
     align-items: center;
@@ -173,26 +173,18 @@ div.galeria img{
     max-width: 350px;
     max-height: 600px;
     transition: all 0.5s;
-}
+    }
 
+div.galeria p{
+    font-size: large;
+    
+}
 
 div.galeria img:hover{
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
     color: aqua;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 div{
