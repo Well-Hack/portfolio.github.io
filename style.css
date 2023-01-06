@@ -1,10 +1,12 @@
 body{
     height: 100vh;
+    min-width: 300px;
     max-width: 5000px;
     background-color: black;
     background-image: url("Imagens/Backgroundenigmasclub.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    position: cover;
     background-attachment: fixed;
     background-position: center center;
     margin: 15px 15px 15px 15px;
@@ -45,6 +47,11 @@ li:hover{
     color: aqua;
 }
 
+main{
+    min-width: 300px;
+    max-width: 2000px;
+}
+
 h1{
     color: white;
     text-align: center;
@@ -52,11 +59,11 @@ h1{
 
 }
 
+
 div{
 
     background-position: center center;
-
-
+    
 }
 
 div.inicio img{
