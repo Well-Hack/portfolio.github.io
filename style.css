@@ -78,7 +78,7 @@ div.inicio img{
 
 #tp{
     /*gradiente*/
-    color: red;
+    color: rgb(160, 111, 111);
     font-size: xx-large;
 
 
@@ -93,7 +93,7 @@ div.inicio img{
 }
 
 #ts{
-    color: red;
+    color: rgb(147, 147, 147);
     font-size: xx-large;
 
 
@@ -201,6 +201,8 @@ div.esconda > p{
 div.drinks{
     background-color: black;
     background-size: cover;
+    box-shadow: inset;
+    box-shadow: 5px 5px 5px rgb(12, 144, 171);
     background-image: url(Imagens/drinks-wallpaper.jpg);
     background-repeat: no-repeat;
     margin-right: -100px;
