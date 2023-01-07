@@ -216,7 +216,25 @@ div.drinks{
     background-repeat: no-repeat;
     margin-right: -100px;
     margin-left: -100px;
-    
-   
+    color: white;
+    text-align: center;
 
+}
+
+div.drinks table{
+    width: 100% !important;
+     border-collapse: collapse;
+    width: 50% !important; 
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    display: inline;
+ }
+
+ td, th{
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 1px solid aqua;
 }
