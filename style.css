@@ -125,8 +125,10 @@ div.videoap iframe{
     
     display: inline-block;
     position: relative;
-    max-width: 120%;
-    max-height: 120%;
+    min-width: 250px;
+    max-width: 3000px;
+    max-height: 720px;
+    min-height: 250px;
     padding: 0px 10px 10px 10px;
     margin: 2mm auto;
     left: 30%;
