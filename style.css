@@ -242,3 +242,7 @@ div.drinks table{
     text-align: center;
     border: 1px solid aqua;
 }
+
+div.mapa{
+        min-width: 300px;
+}
