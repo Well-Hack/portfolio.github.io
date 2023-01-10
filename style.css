@@ -253,7 +253,13 @@ th{
     border: 1px solid aqua;
 }
 
-div.mapa{
+div.local{
         min-width: 300px;
+        display: flex;
+    }
+
+aside{
+    margin: 50px;
+    text-align: center;
 }
 
