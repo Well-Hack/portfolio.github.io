@@ -229,13 +229,23 @@ div.drinks table{
     margin: auto;
     margin-bottom: 100%;
     padding: 100px;
+    padding-top: 50px;
     padding-bottom: 100px;
     align-content: center;
     text-align: center;
     display: inline;
  }
 
- td, th{
+th{
+    border: 1px solid black;
+    background-color: rgba(0, 255, 255, 0.35);
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 1px solid aqua;
+}
+
+ td, tr{
     border: 1px solid black;
     padding: 10px;
     margin-bottom: 30px;
@@ -246,3 +256,4 @@ div.drinks table{
 div.mapa{
         min-width: 300px;
 }
+
