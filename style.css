@@ -263,11 +263,15 @@ th{
 
 div.local{
         min-width: 300px;
+        padding: 5px 5px 5px 5px;
+        margin-right:100px;
         display: flex;
     }
 
-aside{
-    margin: 50px;
+div.end{
+    padding: 2px 2px 0px 2px;
+    margin-left: 200px;
+    border: 1px solid aqua;
     text-align: center;
 }
 
