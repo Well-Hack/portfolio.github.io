@@ -108,12 +108,13 @@ div.inicio img{
 }
 
 #ts{
-    color: rgb(147, 147, 147);
+    color: rgb(208, 203, 203);
     font-size: xx-large;
 
 
     /*posição*/
     text-align: center;
+    padding: 20px;
     font-size: 20px;
     margin: 0;
     position: absolute;
@@ -123,31 +124,22 @@ div.inicio img{
 
 }
 
-.h3video{
+.h3video iframe{
     color: white;
     padding: 10px 10px 0px 10px;
     margin: 10px 10px 0px 10px;
-
-}
-div.videoap iframe{
-    
-    min-width: 250px;
-    max-width: 3000px;
-    max-height: 720px;
-    min-height: 250px;
-    padding: 0px 10px 10px 10px;
-    margin: 2mm auto;
-    left: 30%;
-}
-
-iframe{
     display: block;
     height: 720px;
     width: 1240px;
     min-height: 500px;
     min-width: 500px;
+
 }
 
+div.posicao{
+    padding-right:50px;
+    padding-left: 150px; 
+}
 
 div.sobre {
         background-color: transparente;
