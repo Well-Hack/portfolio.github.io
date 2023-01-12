@@ -131,8 +131,6 @@ div.inicio img{
 }
 div.videoap iframe{
     
-    display: inline-block;
-    position: relative;
     min-width: 250px;
     max-width: 3000px;
     max-height: 720px;
@@ -140,6 +138,14 @@ div.videoap iframe{
     padding: 0px 10px 10px 10px;
     margin: 2mm auto;
     left: 30%;
+}
+
+iframe{
+    display: block;
+    height: 720px;
+    width: 1240px;
+    min-height: 500px;
+    min-width: 500px;
 }
 
 
