@@ -124,10 +124,16 @@ div.inicio img{
 
 }
 
+.h3video{
+    text-align: center;
+    display: block;
+
+}
+
 .h3video iframe{
     color: white;
-    padding: 10px 10px 0px 10px;
-    margin: 10px 10px 0px 10px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
     display: block;
     height: 720px;
     width: 1240px;
@@ -138,14 +144,20 @@ div.inicio img{
 
 div.posicao{
     margin-left: 150px;
+
+}
+
+div.posicao h3{
+    margin-right: 150px;
 }
 
 div.sobre {
         background-color: transparente;
         max-width: 780px;
-        padding: 10px;
+        margin: 20px 20px 20px 20px;
+        padding: 30px 30px 30px 30px;
         margin: auto;
-        border: 1px solid darkcyan;
+        border: 2px solid darkcyan;
         border-radius: 15px;
 
 }
