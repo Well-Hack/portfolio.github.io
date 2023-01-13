@@ -11,7 +11,8 @@ body{
     font-family: "Playfair Display";
     font-weight: 300;
     font-size: 1.3em;
-    height: 100vh;
+    height: 1.5em;
+    height: 1.5em;
     min-width: 300px;
     max-width: 5000px;
     background-color: black;
@@ -301,5 +302,17 @@ div.end{
     margin-left: 200px;
     border: 1px solid aqua;
     text-align: center;
+}
+
+footer{
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
 }
 
