@@ -310,9 +310,18 @@ footer{
     background-color: black;
     color: white;
 }
+.redes{
+    margin: 30px 30px;
+    padding: 30px 30px;
+    color: aqua;
+
+}
+
 footer a{
     text-decoration: none;
     color: white;
     font-weight: 500;
 }
+
+
 
