@@ -311,9 +311,22 @@ footer{
     color: white;
 }
 .redes{
+    display: flex;
+    left: 32%;
     margin: 30px 30px;
     padding: 30px 30px;
     color: aqua;
+}
+
+.redes > a{
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+
+.redes > a:hover{
+    -webkit-transform: scale(1.7);
+    transform: scale(1.7);
 
 }
 
