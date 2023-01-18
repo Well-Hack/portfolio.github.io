@@ -56,9 +56,10 @@ section#sociais img{
 }
 
 section#sociais img:hover {
-    border: 2px solid red;
+    border: 3px solid red;
     box-shadow:6px 6px 10px red;
     transform: translate(-5px, -5px);
+    transition: transform .5s, border 1s;
    
 }
 
