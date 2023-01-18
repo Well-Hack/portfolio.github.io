@@ -52,11 +52,14 @@ section#sociais img{
     margin: 10px;
     border-radius: 10px;
     box-shadow:3px 3px 5px red;
+    box-sizing: border-box;
 }
 
-section#sociais img:hover{
-
-    border: solid;
+section#sociais img:hover {
+    border: 2px solid red;
+    box-shadow:6px 6px 10px red;
+    transform: translate(-5px, -5px);
+   
 }
 
 section#sociais{
