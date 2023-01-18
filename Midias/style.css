@@ -45,5 +45,20 @@ iframe#tela{
 
     width: 265px;
     height: 471px;
+}
 
+section#sociais img{
+    width: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow:3px 3px 5px red;
+}
+
+section#sociais img:hover{
+
+    border: solid;
+}
+
+section#sociais{
+    text-align: right;
 }
