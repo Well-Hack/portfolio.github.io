@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/*Mobile First*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    
+}    
+
+.inicio{
+    /*background site*/
+    background-image: url("../Imagens/pixelart-header.gif");
+    background-position: center center;
+    background-size: cover;
+    /*tamanho do inicio*/
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+}
+
+.inicio img{
+    /*Resolução e tamanho*/
+    width: 40%;
+    height: 60%;
+    border-radius: 50%;
+    /*Posição*/
+    margin-left:25%;
+}
+
+.inicio h1, h3{
+    background-color: transparent
+    
+}
