@@ -40,13 +40,3 @@ h1{
     text-shadow: 2px 2px 2px black;
 }
 
-img#smart{display: block;}
-img#pc{display: none;}
-img#print{display: none;}
-img#tv{display: none;}
-img#tablet{display: none;}
-
-img{
-    display: block;
-    margin: auto;
-}

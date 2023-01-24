@@ -6,6 +6,13 @@
     padding: 0px;
 }
 
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
 
 body, html{
     background-color: lightgray;
@@ -67,3 +74,7 @@ article p{
     margin-bottom: 10px;
     text-indent: 20px;
 }
+
+
+
+
