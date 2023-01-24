@@ -33,9 +33,24 @@ header h1{
     text-align: center;
 }
 
+span#burguer{
+    background-color: green;
+    display: block;
+    color: red;
+    text-align: center;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+#burguer:hover{
+    background-color: red;
+    color: green;
+}
+
+
 menu{
 
-    display: block;
+    display: none;
 }
 
 menu ul{
