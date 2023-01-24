@@ -8,7 +8,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: black;
 }
 
 html{
@@ -75,5 +74,9 @@ p{
     /*Resolução*/
     width: 90vw;
     height: auto;
-    
+    margin: 10%;
+    padding: 5%;
+    /*background*/
+    opacity: 100%;
+
 }
