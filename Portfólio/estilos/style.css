@@ -14,8 +14,22 @@
 html{
     width: 100vw;
     height: 100vh;
-    
-}    
+    background-image: linear-gradient(to top, #5e3a84, black);
+}  
+nav ul li{
+    text-decoration: none;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    display: block;
+    border-top: 2px solid #5e3a84;
+}
+
+nav a{
+    text-decoration: none;
+    color: #5e3a84;
+}
 
 .inicio{
     /*background site*/
@@ -34,9 +48,32 @@ html{
     border-radius: 50%;
     /*Posição*/
     margin-left:25%;
+    position: static;
 }
 
 .inicio h1, h3{
-    background-color: transparent
+    background-color: transparent;
+    color: rgb(244, 234, 245);
+    text-align: center;
+    
+}
+
+.inicio h1{
+    font-size: 2.5em;;
+    text-shadow: 3px 2px 2px solid black;
+}
+
+.inicio h3{
+    font-size: 1.3em;
+}
+
+p{
+    color: white;
+}
+
+.sobremim{
+    /*Resolução*/
+    width: 90vw;
+    height: auto;
     
 }
