@@ -57,6 +57,7 @@ nav a{
     background-image: url("../Imagens/pixelart-header.gif");
     background-position: center center;
     background-size: cover;
+    border-radius: 10%;
     /*tamanho do inicio*/
     padding: 20px 20px 20px 20px;
     margin: 20px 20px 20px 20px;
@@ -143,19 +144,25 @@ p{
 }
 
 .formacao{
+    /* Imagem*/
+    background-image: url(../Imagens/study.gif);
+    background-position: center center;
+    background-size: cover;
     /*Resolução*/
     width: 90vw;
     height: auto;
     margin: auto;
     padding: 10%;
     padding-top: 0%;
+    background-color: rgba(0, 0, 0, 0.181);
+    border-radius: 10%;
 }
 
 .formacao h3{
     /*fontes*/
     font-size: 1.4em;
     color:rgb(244, 234, 245);
-    text-align: left;
+    text-align: center;
     text-shadow: 3px 2px 2px black;
     margin: 5%;
     margin-bottom: 0%;
@@ -165,6 +172,7 @@ p{
     color: white;
     text-shadow: 3px 2px 2px black;
     padding: 10px;
+    text-align: center;
 }
 .formacao p{
     color: white;
