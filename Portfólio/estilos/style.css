@@ -126,7 +126,8 @@ p{
      /*fontes*/
      font-size: 1.2em;
      color:rgb(244, 234, 245);
-     text-align: justify;
+     text-align: center;
+     line-height:2px;
 }
 
 
