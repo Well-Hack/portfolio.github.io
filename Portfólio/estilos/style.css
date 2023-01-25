@@ -123,21 +123,21 @@ p{
      height: auto;
      margin: auto;
      padding: 10%;
+     /*fontes*/
+     font-size: 1.2em;
+     color:rgb(244, 234, 245);
+     text-align: center;
 }
 
-.inter h2{
-    font-size: 1.2em;
-    color:rgb(244, 234, 245);
 
-}
 
 .monster{
-    margin-left:12%;
+    margin-left:27%;
     
 }
 
 #animation{
-    max-width:40%;
+    width:35%;
     height: auto;
     display: inline-block;
 
