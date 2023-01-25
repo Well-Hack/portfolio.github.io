@@ -116,3 +116,29 @@ p{
     text-indent: 10px;
     font-size: 1.2em;
 }
+
+.inter{
+     /*Resolução*/
+     width: 90vw;
+     height: auto;
+     margin: auto;
+     padding: 10%;
+}
+
+.inter h2{
+    font-size: 1.2em;
+    color:rgb(244, 234, 245);
+
+}
+
+.monster{
+    margin-left:12%;
+    
+}
+
+#animation{
+    width: 30vw;
+    height: auto;
+    display: inline-block;
+
+}
