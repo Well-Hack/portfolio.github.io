@@ -52,6 +52,14 @@ nav a{
     color: #5e3a84;
 }
 
+li:hover{
+    background-color:black;
+}
+
+li a:hover{
+    color: #d587bd;
+}
+
 .inicio{
     /*background site*/
     background-image: url("../Imagens/pixelart-header.gif");
