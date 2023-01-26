@@ -145,6 +145,7 @@ p{
 
 .monster{
     margin-left:27%;
+    margin-bottom: 0px;
     
 }
 
@@ -152,6 +153,7 @@ p{
     width:35%;
     height: auto;
     display: inline-block;
+    margin-bottom: 0px;
 
 }
 
