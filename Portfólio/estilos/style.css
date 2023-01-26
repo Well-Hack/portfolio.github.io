@@ -209,12 +209,19 @@ p{
     margin-left: 35%;
 }
 
+.skill img:hover{
+    -moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+    transition: transform .5s, border 1s;
+}
+
 #sonic{
     width:20%;
     position: absolute;
-    margin-left:32%;
+    margin-left:2%;
     margin-top: 4.2%;
-    display: none;
+    
 }
 
 #cat{
