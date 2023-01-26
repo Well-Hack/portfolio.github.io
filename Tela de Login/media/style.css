@@ -40,4 +40,9 @@
         float: left;
         width: 50%;
     }
+
+    div#form p{
+        text-align: center;
+        font-size: 1.2em;
+    }
 }
