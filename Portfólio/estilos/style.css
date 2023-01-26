@@ -206,13 +206,13 @@ p{
     max-width: 20vw;
     display: block;
     position: center center;
-    margin-left: 35%;
+    margin-left: 36%;
 }
 
 .skill img:hover{
-    -moz-transform: scale(1.5);
-	-webkit-transform: scale(1.5);
-	transform: scale(1.5);
+    -moz-transform: scale(1.3);
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
     transition: transform .5s, border 1s;
 }
 
