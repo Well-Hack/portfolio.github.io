@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+    background-image: url(../Imagens/images-netflix/imagem-fundo.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.logo img{
+    width: 15vw;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.escuro{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+}
