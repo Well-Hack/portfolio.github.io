@@ -141,6 +141,7 @@ p{
      color:rgb(244, 234, 245);
      text-align: center;
      line-height:2px;
+     text-shadow: 3px 2px 2px black;
 }
 
 .monster{
@@ -231,6 +232,33 @@ p{
     margin-top: -15%;
     margin-left: 60%;
     position: absolute;
+}
+
+.transition{
+    width: 100vw;
+    height: 30vh;
+    display: block;
+    background-image: url("../Imagens/pixelartcity.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+
+
+
+    /*Fonte*/
+    font-size: 1.2em;
+    color:rgb(244, 234, 245);
+    display: block;
+    text-align: center;
+    text-shadow: 3px 2px 2px black;
+    vertical-align: middle;
+
+
+}
+
+.transition img{
+    width: 30%;
+    margin-top: 30px;
+
 }
 
 .project img{
