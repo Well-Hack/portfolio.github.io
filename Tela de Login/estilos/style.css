@@ -80,6 +80,7 @@ input[type=submit]{
     border: none;
     border-radius: 7px;
     margin-top: 5px;
+    margin-bottom: 5px;
     background-color: #718ba4;
 
 }
@@ -90,18 +91,17 @@ input[type=submit]:hover{
     background-color: #17203d;
 }
 
-input[type=reset]{
-display: block;
-font-size: 1em;
-color: white;
-width: 100%;
-height: 40px;
-border: none;
-border-radius: 7px;
-margin-top: 5px;
-background-color: #718ba4;
+
+
+a:hover{
+    color: #17203d;
 }
 
-input[type=reset]:hover{
-    background-color: #17203d;
+a{  
+   
+    text-align: right;
+    font-size: 1em;
+    color: #718ba4;  
+    border: none;
+    text-decoration: none;
 }
