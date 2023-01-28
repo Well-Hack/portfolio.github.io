@@ -261,6 +261,10 @@ p{
 
 }
 
+.project{
+    
+}
+
 .project img{
     max-width: 240px;
     margin: 5px;
@@ -274,8 +278,8 @@ p{
 }
 
 .project img:hover{
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 
 }
 
