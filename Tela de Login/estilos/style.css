@@ -69,6 +69,21 @@ section#login > div#form{
 
 }
 
+.camp > span{
+   font-size: 1.5em;
+   
+
+}
+
+.camp > input{
+    background-color: #cb895f;
+    color: black;
+    width: 80%;
+    height: 70%;
+    border-radius: 5px;
+
+}
+
 div#form h1{
     text-align: center;
     margin-bottom: 10px;
