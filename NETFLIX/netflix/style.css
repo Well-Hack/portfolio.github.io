@@ -86,3 +86,20 @@ main{
     font-size: 20px;
     margin-left: 5%;
 }
+
+#vamosla{
+    padding: 1.5% 4%;
+    color: white;
+    font-weight: bolder;
+    background-color: #e50914;
+    border: none;
+}
+
+#email{
+    text-align: left;
+    width: 42%;
+    padding: 1.5%;
+    margin-top: 2%;
+    margin-left: 5%;
+    border: none;
+}
