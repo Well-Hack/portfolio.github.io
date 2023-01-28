@@ -239,6 +239,7 @@ p{
     padding: 5px;
 
 
+
     box-shadow: 4px 4px 4px #5e3a84;
     border: #d587bd;
     transition: all 0.5s;
@@ -248,4 +249,19 @@ p{
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
 
+}
+
+.project a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-shadow: 3px 2px 2px black;
+    padding: 5px;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.project a:hover{
+    color:#d587bd;
+    font-size: large;
 }
