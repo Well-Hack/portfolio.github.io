@@ -39,7 +39,7 @@ section#login{
 
     background-color: white;
     width: 270px;
-    height: 500px;
+    height: 515px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px #cb885f42;
 
@@ -57,6 +57,15 @@ section#login > div#imagem{
 section#login > div#form{
     display: block;
     padding: 10px;
+
+}
+.camp{
+    height: 40px;
+    border-radius: 5px;
+}
+
+.camp > label{
+    display: none;
 
 }
 
