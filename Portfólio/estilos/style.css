@@ -316,6 +316,8 @@ p{
 .contatos a{
     display: inline-block;
     text-align: center;
+    margin-left: 18px;
     padding: 2%;
-    
+
+
 }
