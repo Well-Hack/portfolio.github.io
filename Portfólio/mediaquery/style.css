@@ -48,4 +48,56 @@ nav#itens a{
     color: white;
 }
 
+nav#itens a:hover{
+    color: #5e3a84;
 }
+
+
+.inicio{
+    width: 50%;
+   
+}
+.inicio img, h1 h2{
+    width: 40%;
+}
+
+.inicio img{
+    width: 35%;
+
+}
+
+.inicio, .sobremim{
+    display: inline-block;
+    margin: 10px;
+
+    
+}
+
+.sobremim{
+    /*Resolução*/
+    width: 40%;
+    height: auto;
+    padding: 5%;
+    align-items: center;
+    /*background*/
+    background-color: rgba(0, 0, 0, 0.181);
+    border-radius: 10%;
+    text-align: justify;
+
+}
+
+.sobremim h3{
+    padding-bottom: 20px;
+    font-size: 1.4em;
+
+}
+
+.sobremim p{
+    padding: 5px 5px 5px 5px;
+    text-indent: 10px;
+    font-size: 1.2em;
+    word-spacing: 1px;
+}
+
+}
+
