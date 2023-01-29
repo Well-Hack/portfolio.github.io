@@ -17,18 +17,35 @@ TV: 1200px ou mais
     padding: 0px;
     box-sizing: border-box;
 }
+html{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top, #5e3a84, black);
+    background-color: #5e3a84;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+} 
 
 span#burguer{
     display: none;
 }
 
 nav#itens{
+    margin: 10px;
+
     display: block;
-    text-align: right;
+    text-align: center;
+  
 }
 
 nav#itens ul li{
     display: inline-block;
-    text-align: center;
+    text-align: center;   
+    border-top: none; 
 }
+nav#itens a{
+    font-size: 20px;
+    color: white;
+}
+
 }
