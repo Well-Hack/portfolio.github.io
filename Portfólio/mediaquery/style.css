@@ -7,3 +7,28 @@ Tablet: 768px até 992px
 Desktop: 992px até 1200px
 TV: 1200px ou mais
 */
+
+@media screen and (min-width: 993px){
+
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+span#burguer{
+    display: none;
+}
+
+nav#itens{
+    display: block;
+    text-align: right;
+}
+
+nav#itens ul li{
+    display: inline-block;
+    text-align: center;
+}
+}
