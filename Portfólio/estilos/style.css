@@ -23,6 +23,7 @@ html{
     background-image: linear-gradient(to top, #5e3a84, black);
     background-color: #5e3a84;
     background-repeat: no-repeat;
+    scroll-behavior: smooth;
 } 
 span#burguer{
     background-color: #5e3a84;
