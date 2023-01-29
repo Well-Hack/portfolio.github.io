@@ -266,25 +266,24 @@ p{
 
 }
 
-.project{
-    
-}
 
 .project img{
     max-width: 240px;
-    margin: 1px;
+    margin: 5px;
     padding: 1px;
+    border-radius: 2px;
 
 
 
     box-shadow: 4px 4px 4px #5e3a84;
-    border: #d587bd;
+    border: 3px solid black;
     transition: all 0.5s;
 }
 
 .project img:hover{
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
+    border: 4px solid #d587bd;
 
 }
 
@@ -302,6 +301,13 @@ p{
     color:#d587bd;
     font-size: large;
 }
+
+#link{
+    max-width: 540px;
+    
+
+}
+
 .final{
     width: 100%;
     height: 10vh;
