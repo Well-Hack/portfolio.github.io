@@ -21,6 +21,8 @@ html{
     width: 100vw;
     height: 100vh;
     background-image: linear-gradient(to top, #5e3a84, black);
+    background-color: #5e3a84;
+    background-repeat: no-repeat;
 } 
 span#burguer{
     background-color: #5e3a84;
@@ -45,6 +47,7 @@ nav ul li{
 }
 nav{
     display: none;
+    
 }
 
 nav a{
@@ -296,4 +299,23 @@ p{
 .project a:hover{
     color:#d587bd;
     font-size: large;
+}
+.final{
+    width: 100%;
+    height: 10vh;
+    background-image: linear-gradient(to top,black , #5e3a8f);
+} 
+.contatos{
+    width: auto;
+    height: auto;
+    background-color: black;
+
+    /*Fontes*/
+}
+
+.contatos a{
+    display: inline-block;
+    text-align: center;
+    padding: 2%;
+    
 }
