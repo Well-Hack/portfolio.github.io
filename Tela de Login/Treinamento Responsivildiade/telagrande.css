@@ -16,10 +16,12 @@ TV: 1200px ou mais
 
     menu{
         display: block;
+        
     }
 
     menu ul li{
         display: inline-block;
+      
     }
 
     main{

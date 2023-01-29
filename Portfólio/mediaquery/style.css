@@ -35,6 +35,7 @@ nav#itens{
 
     display: block;
     text-align: center;
+    
   
 }
 
@@ -46,6 +47,7 @@ nav#itens ul li{
 nav#itens a{
     font-size: 20px;
     color: white;
+     
 }
 
 nav#itens a:hover{
@@ -76,13 +78,13 @@ nav#itens a:hover{
 .sobremim{
     /*Resolução*/
     width: 40%;
-    height: auto;
+    height: 52vh;
     padding: 5%;
-    align-items: center;
     /*background*/
     background-color: rgba(0, 0, 0, 0.181);
     border-radius: 10%;
     text-align: justify;
+    margin-top: 1px;
 
 }
 
@@ -98,6 +100,57 @@ nav#itens a:hover{
     font-size: 1.2em;
     word-spacing: 1px;
 }
+
+.inter{
+    display: none;
+}
+
+.formacao{
+    font-size:25px;
+
+}
+
+.skill{
+    padding: 15px;
+    margin: 15px;
+    width: 20vw;
+    display: inline-flex;
+
+}
+
+.skill img{
+    width: 5vw;
+    
+}
+
+.skill img > h3{
+    text-align: center;
+}
+
+.transition{
+    display: none;
+}
+
+#sonic{
+   display: none;
+    
+}
+
+#cat{
+   display: none;
+}
+
+.project{
+    width: 90vw;
+    height: 60vh;
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+    
+}
+
 
 }
 
