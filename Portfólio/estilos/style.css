@@ -306,18 +306,18 @@ p{
     background-image: linear-gradient(to top,black , #5e3a8f);
 } 
 .contatos{
-    width: auto;
+    width: 100vw;
     height: auto;
     background-color: black;
+    display: inline-block;
+    text-align: center;
 
     /*Fontes*/
 }
 
 .contatos a{
-    display: inline-block;
     text-align: center;
-    margin-left: 18px;
+    margin: 2%;
     padding: 2%;
-
 
 }
