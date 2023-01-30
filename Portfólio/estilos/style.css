@@ -266,6 +266,10 @@ p{
 
 }
 
+.project{
+    width: 90vw;
+}
+
 
 .project img{
     max-width: 240px;
