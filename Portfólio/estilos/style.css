@@ -309,7 +309,7 @@ p{
 } 
 .contatos{
     width: 100vw;
-    margin: 2px;
+    padding: 2px;
     height: auto;
     background-color: black;
     display: inline-block;
