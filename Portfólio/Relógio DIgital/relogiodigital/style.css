@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Anton', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(190deg, #ff3b3b, #05e9f5d8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30%;
+    width: 50%;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px;
+}
+
