@@ -10,7 +10,7 @@
 
 body{
     height: 100vh;
-    background-image: linear-gradient(190deg, #ff3b3b, #05e9f5d8);
+    background-image: linear-gradient(290deg, #000000, #ff0404c5);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,6 +44,7 @@ body{
 
 .relogio span{
     font-size: 60px;
+   
 
 }
 
