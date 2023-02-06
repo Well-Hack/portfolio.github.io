@@ -20,7 +20,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 200px;
+    height: 180px;
     width: 550px;
     background: transparent;
     border-radius: 3px;
@@ -28,7 +28,7 @@ body{
 }
 
 .relogio div{
-   height: 170px;
+   height: 150px;
    width: 150px;
    display: flex;
    flex-direction: column; 
@@ -37,13 +37,17 @@ body{
    color: rgb(253, 0, 0);
    background: rgba(5,5,5,0.9);
    background-color: (0,0,0,.7);
-   border: 7px;
+   border-radius: 7px;
    letter-spacing: 3px;
 
 }
 
 .relogio span{
     font-size: 60px;
-    
+
+}
+
+.relogio span.tempo{
+    font-size: 15px;
 }
 
