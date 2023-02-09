@@ -8,8 +8,20 @@ const relogio = setInterval(function time() {
     if(min < 10) min = '0' + min;
     if(s < 10) s = '0' + s;
     //testando
-    var b = document.getElementById('mudar')
-    
+    function carregar(){
+        var b = document.getElementById('mudar')
+        var hra = data.getHours()
+            if (hra > 10 && hra < 17){
+            b.src = 'estilonoite.jpg'
+
+            }
+            else if(hra > 17 && hra < 12){
+                b.src = 'estilonoite.jpg'
+            }
+            else{
+                b.src = 'estilonoite.jpg'
+            }
+    }
 
     horas.textContent = hr;
     minutos.textContent = min;
