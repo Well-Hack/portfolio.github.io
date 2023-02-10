@@ -18,12 +18,12 @@ var img = document.getElementById('imagem')
 var data = new Date();
 var hora = data.getHours();
     if(hora >= 0 && hora < 12){
-        img.style.backgroundImage =src('../amanhecer.jpg')
+        img.src = ('../amanhecer.jpg')
 
     } else if(hora >= 12 && hora < 18){
-        img.style.backgroundImage =src('estilonoite.jpg')
+        img.src = 'estilonoite.jpg'
 
     } else{
-        img.style.backgroundImage =src('entardecer.jpg')
+        img.src = 'entardecer.jpg'
     }
 }
