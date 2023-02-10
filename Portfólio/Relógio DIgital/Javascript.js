@@ -17,13 +17,13 @@ function carregar(){
 var img = document.getElementById('imagem')
 var data = new Date();
 var hora = data.getHours();
-if(hora >= 0 && hora < 12){
-    img.src = '../amanhecer.jpg'
+    if(hora >= 0 && hora < 12){
+        document.body.style.backgroundImage =src('../amanhecer.jpg')
 
-} else if(hora >= 12 && hora < 18){
-    img.src = '../entardecer.jpg'
+    } else if(hora >= 12 && hora < 18){
+        img.src = '../entardecer.jpg'
 
-} else{
-    img.src = '../estilonoite.jpg'
-}
+    } else{
+        img.src = '../estilonoite.jpg'
+    }
 }
