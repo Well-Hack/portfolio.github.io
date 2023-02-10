@@ -16,12 +16,7 @@ body{
     justify-content: center;
 }
 
-.mudar{
-    width: auto;
-    height: auto;
-    color: yellow;
 
-}
 
 .relogio{
     display: flex;

@@ -1,15 +1,15 @@
  function carregar(){
     var data = new Date()
-    var hra = data.getHours()
+    var hra = dateToday.getHours()
     var img = window.document.getElementsByClassName("mudar")
         if (hra >= 10 && hra < 17){
             img.src = 'estilonoite.jpg'
-            img.innerHTML = "teste"
+            
 
         }
         else if(hra >= 17 && hra < 23){
             img.src = 'estilonoite.jpg'
-            img.innerHTML = "teste"
+            
         }
         else{
             img.src = 'estilonoite.jpg'
