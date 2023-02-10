@@ -10,10 +10,9 @@
 
 body{
     height: 100vh;
-    background-image:url("../estilonoite.jpg");
+    background-image:url("../entardecer.jpg");
     background-position: center;
     background-size: cover;
-    /*linear-gradient(290deg, #000000, #ff0404c5);*/
     display: flex;
     align-items: center;
     justify-content: center;
