@@ -1,18 +1,18 @@
- function carregar(){
+ function background(){
     var data = new Date()
-    var hra = dateToday.getHours()
-    var img = window.document.getElementsByClassName("mudar")
+    var hra = data.getHours()
+    var img = document.getElementsByClassName("mudar")
         if (hra >= 10 && hra < 17){
-            img.src = 'estilonoite.jpg'
+            img.src = '../estilonoite.jpg'
             
 
         }
         else if(hra >= 17 && hra < 23){
-            img.src = 'estilonoite.jpg'
+            img.src = '../amanhecer.jpg'
             
         }
         else{
-            img.src = 'estilonoite.jpg'
+            img.src = '../estilonoite.jpg'
         }
 }
 const relogio = setInterval(function time() {
