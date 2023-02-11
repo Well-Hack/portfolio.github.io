@@ -8,17 +8,18 @@
     font-family: 'Anton', sans-serif;
 }
 
+
 body{
-    height: 100vh;
-    background-image:url("../entardecer.jpg");
-    background-position: center;
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-
+#imagem{
+    height: 100vh;
+    background-image:url("../entardecer.jpg");
+    background-position: center;
+    background-size: cover;
+}
 
 .relogio{
     display: flex;

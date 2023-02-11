@@ -9,21 +9,21 @@ const relogio = setInterval(function time() {
     if(min < 10) min = '0' + min;
     if(s < 10) s = '0' + s;
 
+    if (hr >= 6 && hr < 12) {
+        document.getElementById("imagem").style.backgroundImage = "url('amanhecer.jpg')";
+      } else if (hr >= 12 && hr < 16) {
+        document.getElementById("imagem").style.backgroundImage = "url('diacidade.jpg')";
+      } else if(hr >= 16 && hr < 18){
+        document.getElementById("imagem").style.backgroundImage = "url('entardecer.jpg')";
+      } else if(hr >= 18 && hr < 23){
+        document.getElementById("imagem").style.backgroundImage = "url('estilonoite.jpg')";
+      }else{
+        document.getElementById("imagem").style.backgroundImage = "url('madrugada.jpg')";
+      }
+
     horas.textContent = hr;
     minutos.textContent = min;
     segundos.textContent = s;
-})
-function carregar(){
-var img = document.getElementById('imagem')
-var data = new Date();
-var hora = data.getHours();
-    if(hora >= 0 && hora < 12){
-        img.style.backgroundImage.src = ('../amanhecer.jpg')
+});
 
-    } else if(hora >= 12 && hora < 18){
-        img.src = 'estilonoite.jpg'
 
-    } else{
-        img.src = ('../amanhecer.jpg')
-    }
-}
