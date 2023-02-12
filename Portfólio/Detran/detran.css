@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url("../Detran/Imagens/Detran.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   
+}
+
+.janela > img{
+    width: 20vw;
+    height: 20vh;
+
+}
+
+.janela{
+    width: 40vw;
+    min-width: 40vw;
+    min-height: 40vh;
+    background-color: rgba(255, 255, 255, 0.683);
+    display: block;
+    vertical-align: middle;
+ 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}

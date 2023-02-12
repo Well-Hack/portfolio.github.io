@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="detran.css">
     <title>Detran >>></title>
-    
 </head>
 <body>
-    
+    <div class="janela">
+        <img src="../Detran/Imagens/detran-sp-logo.png" alt="Detran-logo">
+        <h4>Sistemas de Multas da Rodovia Sp-050</h4>
+            <input type="text" name="nome" id="inome" placeholder="Nome do carro" maxlength="50" autocapitalize="on" required>
+            <input type="number" name="placa" id="iplaca" placeholder="8" maxlength="8"required>
+            <p>Abaixo você dará a informação da velocidade que o carro estava</p>
+            <p>Limite de velocidade é: <strong>110 Km/h</strong> </p>
+            <input type="number" placeholder="Velocidade passado pelo radar" maxlength="3" id="velo" required>Km/h
+            <input type="submit" value="Verificar" function verificar()>
+            <p id="result"> Aperte no "verificar" para apresentar o resultado</p>
+    </div>
+<script>
+    function verificar(){
+    var vel = document.getElementById('velo')
+    var res = document.getElementById('result')
+    if (vel > 110){
+        res.innerHTML = "Olá"
+    }else{
+        res.innerHTML = "teste"
+    }
+}
+</script>
+
+
 </body>
 </html>
