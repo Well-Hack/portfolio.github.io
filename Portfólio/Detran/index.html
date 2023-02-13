@@ -12,22 +12,25 @@
         <img src="../Detran/Imagens/detran-sp-logo.png" alt="Detran-logo">
         <h4>Sistemas de Multas da Rodovia Sp-050</h4>
             <input type="text" name="nome" id="inome" placeholder="Nome do carro" maxlength="50" autocapitalize="on" required>
-            <input type="number" name="placa" id="iplaca" placeholder="8" maxlength="8"required>
+            <input type="number" name="placa" id="iplaca" placeholder="8 digitos" maxlength="8" required>
             <p>Abaixo você dará a informação da velocidade que o carro estava</p>
             <p>Limite de velocidade é: <strong>110 Km/h</strong> </p>
-            <input type="number" placeholder="Velocidade passado pelo radar" maxlength="3" id="velo" required>Km/h
-            <input type="submit" value="Verificar" function verificar()>
+            <label for="velo">Velocidade passado pelo radar:</label>
+            <input type="number"  maxlength="3" id="velo" required>Km/h
+            <input type="button" value="Verificar" id="button" onclick="verificar()">
             <p id="result"> Aperte no "verificar" para apresentar o resultado</p>
+            <p id="se"></p>
     </div>
 <script>
     function verificar(){
-    var vel = document.getElementById('velo')
-    var res = document.getElementById('result')
-    if (vel > 110){
-        res.innerHTML = "Olá"
-    }else{
-        res.innerHTML = "teste"
-    }
+       let res = document.getElementById("result");
+       let vel = document.getElementById("velo");
+       vel = parseInt(vel.value);
+       res.innerHTML = `O carro ${inome.value} com a placa ${iplaca.value} estava em </br> uma velocidade de ${vel} Km/h </br>`;
+        if (vel <= 110){
+                se.innerHTML = "Dirija com cuidado";
+                }else{
+                    se.innerHTML = "Voce será multado em um valor de <strong>R$160,00.</strong>";}       
 }
 </script>
 

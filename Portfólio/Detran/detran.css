@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif
+    font-weight: bold;
 }
 
 body{
@@ -13,21 +16,92 @@ body{
 }
 
 .janela > img{
-    width: 20vw;
-    height: 20vh;
+    width: 25vw;
+    height: 25vh;
 
 }
 
 .janela{
     width: 40vw;
-    min-width: 40vw;
-    min-height: 40vh;
+    min-width: 35vw;
+    min-height: 60vh;
     background-color: rgba(255, 255, 255, 0.683);
+
+    /*Posição global na tela*/
+    margin: auto;
+    padding-top: 15px;
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px blue;
+
     display: block;
     vertical-align: middle;
- 
     justify-content: center;
     align-items: center;
     text-align: center;
 
 }
+
+.janela h4{
+    padding: 5px;
+
+    font-size: large;
+}
+
+.janela > p{
+    padding: 2px;
+    margin: 10px;
+
+    font-size: 16px;
+}
+
+.janela > input[type=text]{
+    width: 200px;
+    height: 25px;
+
+    /*estilização caixa*/
+    box-shadow: 2px 2px 2px black;
+
+    font-size: larger;
+    text-align: center;
+}
+
+
+#iplaca{
+    width: 85px;
+    height: 25px;
+
+    margin-left: 10px;
+
+    box-shadow: 2px 2px 2px black;
+    -moz-appearance: textfield;
+    text-align: center;
+    font-size: 17px;
+}
+
+
+#velo{
+    width: 45px;
+    height: 25px;
+
+    margin-right: 10px;
+
+    box-shadow: 2px 2px 2px black;
+    -moz-appearance: textfield;
+    text-align: center;
+    font-size: 17px;
+}
+
+#button{
+    width: 80px;
+    height: 25px;
+
+    margin-right: 10px;
+
+    box-shadow: 2px 2px 2px black;
+    -moz-appearance: textfield;
+    text-align: center;
+    font-size: 17px;
+}
+
+
