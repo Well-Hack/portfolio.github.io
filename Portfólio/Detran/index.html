@@ -11,7 +11,7 @@
     <div class="janela">
         <img src="../Detran/Imagens/detran-sp-logo.png" alt="Detran-logo">
         <h4>Sistemas de Multas da Rodovia Sp-050</h4>
-            <input type="text" name="nome" id="inome" placeholder="Nome do carro" maxlength="50" autocapitalize="on" required>
+            <input type="text" name="nome" id="inome" placeholder="Nome do carro" maxlength="10" autocapitalize="on" required>
             <input type="number" name="placa" id="iplaca" placeholder="nº da placa" minlenght="8" maxlength="8" >
             <p>Abaixo você dará a informação da velocidade que o carro estava</p>
             <p>Limite de velocidade é: <strong>110 Km/h</strong> </p>
@@ -22,14 +22,15 @@
             <p id="se"></p>
     </div>
 <script>
-    const icarro = document.getElementById(inome)
-    const iplace = document.getElementById(iplaca)
-    
-        inputElement.addEventListener('inome', () => {
+        inputElement.addEventListener('nome', () => {
             if (inputElement.value.length > inputElement.maxLength) {
             inputElement.value = inputElement.value.slice(0, inputElement.maxLength);
         }
         });
+        inputElement.addEventListener('iplaca',() => {
+            if(inputElement.value.lenght < 8)
+            window.alert('Insira o total dos 8 digitos da placa')
+        })
 
   
 
