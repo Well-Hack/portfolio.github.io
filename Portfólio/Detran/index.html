@@ -29,27 +29,23 @@
         });
 
  
-
-
     function verificar(){
        let res = document.getElementById("result");
        let vel = document.getElementById("velo");
+       let placa = document.getElementById('iplaca');
        vel = parseInt(vel.value);
-       res.innerHTML = `O carro ${inome.value} com a placa ${iplaca.value} estava em </br> uma velocidade de ${vel} Km/h </br>`;
-        if (vel <= 110){
-                se.innerHTML = "Dirija com cuidado";
-                }else{
-                    se.innerHTML = "Voce será multado em um valor de <strong>R$160,00.</strong>";}       
-}
-
-    function verificar(){
-        let placa = document.getElementById('iplaca');
-        if(placa.value.length < 8 || placa.value.length > 8)
-        alert('Por favor, colocar composição de 8 digitos na placa')
-        else{
-            ("")
-        }
-    }
+       
+        
+        if(placa.value.length < 8 || placa.value.length > 8){
+             alert('Por favor, colocar composição de exatos 8 digitos da placa');return;
+            }
+        else if(vel <= 110){
+                se.innerHTML = "<strong>Dirija com cuidado</strong>";
+                    }else{
+                        se.innerHTML = "Voce será multado em um valor de <strong>R$160,00.</strong>";}       
+res.innerHTML = `O carro ${inome.value} com a placa ${iplaca.value} estava em </br> uma velocidade de ${vel} Km/h </br>`;
+                    }
+    
 </script>
 
 
