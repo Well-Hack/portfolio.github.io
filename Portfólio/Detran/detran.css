@@ -119,20 +119,17 @@ TV: 1200px ou mais
         padding:0;
         margin:0;
     }
-
-    body{
-        background-color: white
-    }
-
     .janela > img{
         width: auto;
     }
 
     .janela{
-        width: auto;
+        width: 80%;
         height: auto;
     
     }
+
+    
 
 
 
