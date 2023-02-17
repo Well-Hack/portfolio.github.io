@@ -27,12 +27,8 @@
             inputElement.value = inputElement.value.slice(0, inputElement.maxLength);
         }
         });
-        inputElement.addEventListener('iplaca',() => {
-            if(inputElement.value.lenght < 8)
-            window.alert('Insira o total dos 8 digitos da placa')
-        })
 
-  
+ 
 
 
     function verificar(){
@@ -45,6 +41,15 @@
                 }else{
                     se.innerHTML = "Voce será multado em um valor de <strong>R$160,00.</strong>";}       
 }
+
+    function verificar(){
+        let placa = document.getElementById('iplaca');
+        if(placa.value.length < 8 || placa.value.length > 8)
+        alert('Por favor, colocar composição de 8 digitos na placa')
+        else{
+            ("")
+        }
+    }
 </script>
 
 
