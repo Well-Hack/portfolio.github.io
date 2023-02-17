@@ -8,6 +8,7 @@
 }
 
 body{
+    
     background-image:url("../Detran/Imagens/Detran.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -119,6 +120,10 @@ TV: 1200px ou mais
         padding:0;
         margin:0;
     }
+
+    body{
+        background-image: linear-gradient(to top, #003c82, #67a6ee);
+    }
     .janela > img{
         width: auto;
     }
@@ -129,7 +134,7 @@ TV: 1200px ou mais
     
     }
 
-    
+
 
 
 
